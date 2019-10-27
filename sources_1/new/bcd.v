@@ -31,9 +31,9 @@ begin
 end
 //assign digit = mem;
 assign digit1 = mem;
-//assign digit2 = mem2;
-//assign digit3 = mem3;
-//assign digit4 = mem4;
+assign digit2 = 4'b0;
+assign digit3 = 4'b0;
+assign digit4 = 4'b0;
 ssd_0 ssd0 (
   .clk(clk),        // input wire clk
   .segs(seg_cat),      // output wire [7 : 0] segs
